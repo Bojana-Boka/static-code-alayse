@@ -16,6 +16,7 @@
 		347EBE9B2C2EA60500CBF8A6 /* SonarCubeUIKitTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347EBE9A2C2EA60500CBF8A6 /* SonarCubeUIKitTestTests.swift */; };
 		347EBEA52C2EA60500CBF8A6 /* SonarCubeUIKitTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347EBEA42C2EA60500CBF8A6 /* SonarCubeUIKitTestUITests.swift */; };
 		347EBEA72C2EA60500CBF8A6 /* SonarCubeUIKitTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347EBEA62C2EA60500CBF8A6 /* SonarCubeUIKitTestUITestsLaunchTests.swift */; };
+		347EBEB42C32D4C000CBF8A6 /* MassiveClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347EBEB32C32D4C000CBF8A6 /* MassiveClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		347EBEA02C2EA60500CBF8A6 /* SonarCubeUIKitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonarCubeUIKitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		347EBEA42C2EA60500CBF8A6 /* SonarCubeUIKitTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarCubeUIKitTestUITests.swift; sourceTree = "<group>"; };
 		347EBEA62C2EA60500CBF8A6 /* SonarCubeUIKitTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarCubeUIKitTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		347EBEB32C32D4C000CBF8A6 /* MassiveClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassiveClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				347EBE8C2C2EA60400CBF8A6 /* Assets.xcassets */,
 				347EBE8E2C2EA60400CBF8A6 /* LaunchScreen.storyboard */,
 				347EBE912C2EA60400CBF8A6 /* Info.plist */,
+				347EBEB32C32D4C000CBF8A6 /* MassiveClass.swift */,
 			);
 			path = SonarCubeUIKitTest;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				347EBE882C2EA60100CBF8A6 /* ViewController.swift in Sources */,
 				347EBE842C2EA60100CBF8A6 /* AppDelegate.swift in Sources */,
 				347EBE862C2EA60100CBF8A6 /* SceneDelegate.swift in Sources */,
+				347EBEB42C32D4C000CBF8A6 /* MassiveClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

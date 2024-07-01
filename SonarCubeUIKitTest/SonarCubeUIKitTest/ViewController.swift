@@ -44,7 +44,24 @@ class ViewController: UIViewController {
         // 8. Non-descriptive method name
         fetchData()
         
-        // Code smells end here
+        // Usage example:
+        let interests = ["Reading", "Gaming", "Programming"]
+        var massiveObject = MassiveClass(name: "John Doe", age: 30, address: "123 Main St", interests: interests)
+        massiveObject.greet()
+        massiveObject.introduceYourself()
+        print("Sum: \(massiveObject.calculateSum([1, 2, 3, 4, 5]))")
+        print(massiveObject.performComplexTask(a: 10, b: 5, c: 20, d: 4, e: 7))
+        massiveObject.processString("Swift is awesome!", withOption: "Advanced")
+        massiveObject.fetchData { result in
+            switch result {
+            case .success(let data):
+                print("Fetched data: \(data)")
+            case .failure(let error):
+                print("Error fetching data: \(error.localizedDescription)")
+            }
+        }
+        massiveObject.updateUIOnMainThread()
+        print(massiveObject.generateReport())
     }
     
     func setupUI() {
